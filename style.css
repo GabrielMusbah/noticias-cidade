@@ -1,0 +1,51 @@
+/* Estrutura do site */
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #fff url(../imagens/fundo.png) repeat-x;;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 900px;
+
+    height: 200px;
+	background: url(../imagens/detalhe-topo.png) no-repeat right top;
+}
+header div {
+    height: 100px;
+    padding-top: 25px;
+    height: 65px;
+}
+
+nav {
+    padding-top: 25px;
+    height: 55px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+}
+
+a:link, a:visited {
+    background-color: #b10333;
+    width: 100px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a:hover{
+	background-color: #e50040;
+}
